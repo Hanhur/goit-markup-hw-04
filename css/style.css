@@ -429,6 +429,11 @@ img
 {
     fill: var(--color-cloud);
 }
+.social-link:hover,
+.social-link:focus
+{
+    background-color: var(--color-ocean);
+}
 
 /* Customers */
 .customers
@@ -457,6 +462,7 @@ img
 {
     width: 168px;
     height: 88px;
+    padding: 16px 32px;
     border: 1px solid var(--color-linght-slate);
     border-radius: 4px;
 }
@@ -551,7 +557,6 @@ img
     height: 40px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    color: var(--color-cloud);
 }
 .footer-link
 {
@@ -560,4 +565,14 @@ img
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer-link:hover,
+.footer-link:focus
+{
+    border-radius: 50%;
+    background-color: var(--color-linght-slate);
+}
+.footer-icon
+{
+    fill: var(--color-cloud);
 }
